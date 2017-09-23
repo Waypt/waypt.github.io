@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Vanido - Your personal singing coach</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <link rel="shortcut icon" href="favico.png" type="image/png" />
+  <meta name="description" content="Learn to sing with Vanido. It's engaging, fun and free! Vanido is changing the way people learn and practice singing." />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700|Montserrat:700" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" />
+
+  <!-- Open Graph Protocol Meta -->
+  <meta property='og:title' content='Vanido - Your personal singing coach' />
+  <meta property='og:url' content='https://vanido.io' />
+  <meta property="og:type" content="website" />
+  <meta property='og:image' content='https://vanido.io/og_img.jpg' />
+  <meta property='og:description' content="Learn to sing with Vanido. It's engaging, fun and free! Vanido is changing the way people learn and practice singing." />
+  <!-- END Open Graph Protocol Meta -->
+  <!-- Open Twitter Card -->
+  <meta name="twitter:card" content="app">
+  <meta name="twitter:site" content="@VanidoApp">
+  <meta name="twitter:description" content="Learn to sing with Vanido. It's engaging, fun and free! Vanido is changing the way people learn and practice singing.">
+  <meta name="twitter:app:country" content="US">
+  <meta name="twitter:app:name:iphone" content="Vanido">
+  <meta name="twitter:app:id:iphone" content="1130249200">
+  <meta name="twitter:app:url:iphone" content="app.vanido.io://welcome">
+  <!-- END Twitter Card -->
+  <meta name="apple-itunes-app" content="app-id=1130249200" />
+</head>
+<body>
+  <nav class="navbar navbar-default invert-buttons">
+    <div class="container">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html?ref=landingfolio#">
+            <img alt="VANIDO" src="img/logo-name@2x.png" class="app-icon">
+          </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://twitter.com/VanidoApp" target="_blank">Twitter</a></li>
+            <li><a href="cdn-cgi/l/email-protection#30565f455e545542437046515e59545f1e595f">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="container top-section">
+      <div class="row">
+        <div class="col-xs-12">
+            <h1 id="title">Waypoint.</h1>
+            <p id="subtitle">Learn to sing with Vanido. It’s engaging, fun and free!</p>
+            <a href="https://itunes.apple.com/in/app/vanido-your-personal-singing/id1130249200?mt=8" target="_blank"><img id="app-store" src="img/appstore.svg" alt="Downlaod on the App Store"/></a>
+            <br>
+            <a id="android-user" href="index.html?ref=landingfolio#" onclick ="showAndroidPopUp(); return false;">I HAVE AN ANDROID DEVICE.</a>
+        </div>
+      </div>
+    </div>
+    <div class="container dual-screen">
+      <div class="row">
+        <img class="bigger" src="img/dual-screen@2x.png" alt="App Mockup Screens" />
+        <img class="smaller" src="img/dual-screen-small@2x.png" alt="App Mockup Screens" />
+      </div>
+    </div>
+    <div class="container features">
+      <div class="row feature-row">
+        <div class="col-xs-12 col-sm-5 description">
+          <h2>Improve your voice and ear.</h2>
+          <hr class="separator yellow" />
+          <p>Practice exercises to improve your breathing, pitch, ear, range and vocal consistency.</p>
+        </div>
+        <div class="col-xs-12 col-sm-offset-1 col-sm-6 screen">
+          <img src="img/phone-1@2x.png" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 feature-line"></div>
+      </div>
+      <div class="row feature-row">
+        <div class="col-xs-12 col-sm-5 col-sm-push-7 description">
+          <h2>Real time pitch detection.</h2>
+          <hr class="separator red" />
+          <p>Get feedback on your pitch as soon as you sing. Helps train your ear and know when you’re off pitch.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-sm-pull-5 screen">
+          <img src="img/phone-2@2x.png" alt="real-time pitch screenshot"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 feature-line"></div>
+      </div>
+      <div class="row feature-row">
+        <div class="col-xs-12 col-sm-5 description">
+          <h2>Sing Favorite Songs.</h2>
+          <hr class="separator blue" />
+          <p>Practice singing your favorite songs through an innovative repetion-based technique. Powered by Apple Music and Spotify.</p>
+        </div>
+        <div class="col-xs-12 col-sm-offset-1 col-sm-6 screen">
+          <img src="img/phone-3@2x.png" alt="practice songs"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 feature-line"></div>
+      </div>
+      <div class="row feature-row">
+        <div class="col-xs-12 col-sm-5 col-sm-push-7 description">
+          <h2>Stay Disciplined.</h2>
+          <hr class="separator yellow" />
+          <p>Track your progress, set challenging goals, get reminders and practice everyday.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-sm-pull-5 screen">
+          <img src="img/phone-4@2x.png" alt="track progress"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 feature-line"></div>
+      </div>
+      <div class="row feature-row">
+        <div class="col-xs-12 col-sm-5 description">
+          <h2>Personalised.</h2>
+          <hr class="separator red" />
+          <p>Each exercise is tailored to your vocal range and past performance.</p>
+        </div>
+        <div class="col-xs-12 col-sm-offset-1 col-sm-6 screen">
+          <img src="img/phone-5@2x.png" alt="personalized"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 feature-line"></div>
+      </div>
+    </div> <!-- features -->
+    <div class="container comments">
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+          <div class="comment">
+            <img id="left-confetti" src="img/confetti-1.svg" alt="left decoration" />
+            <h3>I've been using Vanido everyday and I actually won first place from my school talent show! It’s all because of your app.</h2>
+            <img id="right-confetti" src="img/confetti-2.svg" alt="right decoration" />
+          </div>
+          <p class="commentor">- Anisa</p>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="container subscribe">
+      <div class="row">        
+        <h1 class="col-xs-12" >Subscribe for updates.</h1>
+        <!-- Begin MailChimp Signup Form -->
+        <form action="https://vanido.us14.list-manage.com/subscribe/post?u=5ecab6fb7ea0897eebcc65eb3&amp;id=c2f0bff53d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div class="col-xs-12">
+            <input type="email" value="" name="EMAIL" placeholder="EMAIL ADDRESS" class="required email input-field">
+          </div>
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5ecab6fb7ea0897eebcc65eb3_c2f0bff53d" tabindex="-1" value=""></div>
+            <div class="col-xs-12">
+              <input type="submit" value="SIGN UP" name="subscribe" id="subscribe" class="button btn btn-vanido">
+            </div>
+        </form>
+      </div>
+    </div>
+    <div class="container about" style="display:none">
+      <div class="about-cards">
+      <div class="about-card">
+        <img class="card-img" src="img/himanshu.png" alt="Himahshu" />
+        <p>HIMANSHU SINGH</p>
+        <a class="card-link" href="https://twitter.com/singhimu" target="_blank">
+          <img src="img/twitter.svg" alt="Twitter" />
+        </a>
+      </div>
+      <div class="about-card">
+        <img class="card-img" src="img/varsha.png" alt="Varsha" />
+        <p>VARSHA ASHOK</p>
+        <a class="card-link" href="https://twitter.com/varshashok" target="_blank">
+          <img src="img/twitter.svg" alt="Twitter" />
+        </a>
+      </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container footer-nav">
+        <div class="col-xs-12 text-center">
+          <div>
+            <a class="nav-link" id="about-link" href="index.html?ref=landingfolio#about">
+              About
+            </a>
+            <a class="nav-link" href="https://drive.google.com/open?id=0B98m-dtKE2s7UEw5YjhrbGVaaXc" target="_blank">
+              Press
+            </a>
+            <a class="nav-link" href="privacy.html" target="_blank">
+              Privacy
+            </a>
+            <a class="nav-link" href="terms.html" target="_blank">
+              Terms
+            </a>
+            <a class="nav-link" href="cdn-cgi/l/email-protection#6a0c051f040e0f18192a1c0b04030e05440305">
+              Contact Us
+            </a>
+          </div>
+          <br>
+         <div>
+            <a class="nav-link" href="https://twitter.com/VanidoApp" target="_blank">
+              <img src="img/twitter.svg" alt="Twitter" />
+            </a>
+            <a class="nav-link" href="https://facebook.com/VanidoApp" target="_blank">
+              <img src="img/facebook.svg" alt="Facebook" />
+            </a>
+            <a class="nav-link" href="https://angel.co/vanido" target="_blank">
+              <img src="img/angel.svg" alt="AngelList" />
+            </a>
+          </div>
+          <br>
+          <img id="skyline" src="img/skyline.svg"/>
+          <div id="copyright">
+            <span>
+              © 2017 Vanido.
+            </span>
+          </div>
+          <div id="made-in">
+            <span>
+              MADE WITH ❤ IN
+            </span>
+            <br>
+            <span>
+            DELHI & MENLO PARK
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div> <!-- container-fluid -->
+   <script>!function(e,t,r,n,c,h,o){function a(e,t,r,n){for(r='',n='0x'+e.substr(t,2)|0,t+=2;t<e.length;t+=2)r+=String.fromCharCode('0x'+e.substr(t,2)^n);return r}try{for(c=e.getElementsByTagName('a'),o='/cdn-cgi/l/email-protection#',n=0;n<c.length;n++)try{(t=(h=c[n]).href.indexOf(o))>-1&&(h.href='mailto:'+a(h.href,t+o.length))}catch(e){}for(c=e.querySelectorAll('.__cf_email__'),n=0;n<c.length;n++)try{(h=c[n]).parentNode.replaceChild(e.createTextNode(a(h.getAttribute('data-cfemail'),0)),h)}catch(e){}}catch(e){}}(document);</script><script type="text/javascript" src="https://s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script>
+  function showAndroidPopUp() {
+    require(["mojo/signup-forms/Loader"], function(L) {
+      L.start({"baseUrl":"mc.us14.list-manage.com","uuid":"5ecab6fb7ea0897eebcc65eb3","lid":"47f7939a3f"
+      })
+    })
+    document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+  };
+
+  $(document).ready(function() {
+    $('#about-link').click(function() {
+      $('.about').fadeIn();
+    });
+  });
+
+ </script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-38578308-4', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
